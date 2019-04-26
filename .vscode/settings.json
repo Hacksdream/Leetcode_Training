@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/home/hentai/.local/share/virtualenvs/Leetcode-nTp29bE6/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "editor.fontFamily": "'monaco', 'YaHeiConsolas',",
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'monaco', 'YaHeiConsolas', sans-serif"
+}
