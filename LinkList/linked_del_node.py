@@ -22,13 +22,16 @@ class LinkedList():
         head_value = self.head.data
         if head_value == node_key:
             self.head = self.head.next
+            return
         
         node = self.head
+        # pre = node
         while node:
-            pre = node
             if node.data == node_key:
-                node =  node.next
+                node = node.next
+                pre.next = node
                 return
+            pre = node
             node = node.next
 
 n1 = Node("1")
@@ -44,7 +47,7 @@ list.print_list()
 
 print("-"*50)
 print("删除后：")
-list.del_node("2")
+list.del_node("3")
 
 list.print_list()
 
